@@ -18,6 +18,7 @@
           <td>name</td>
           <td>gender</td>
           <td>mass</td>
+          <td>hair</td>
         </tr>
       </thead>
       <tbody>
@@ -25,6 +26,7 @@
           <td>{{ p.name }}</td>
           <td>{{ p.gender }}</td>
           <td>{{ p.mass }}</td>
+          <td>{{ p.hair_color }}</td>
         </tr>
       </tbody>
     </table>
